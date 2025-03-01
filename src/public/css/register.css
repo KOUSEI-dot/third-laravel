@@ -1,0 +1,94 @@
+body {
+    background-color: #fff;
+}
+
+.header {
+    margin-bottom: 120px;
+    background-color: black;
+}
+
+.header_logo {
+    width: 300px;
+    height: 120px;
+    /* 必要に応じて調整 */
+}
+
+.register-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 400px;
+    /* 修正: フォームの幅を親コンテナに収める */
+}
+
+.register-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.form {
+    width: 100%;
+    /* 修正: フォームの幅を100%に */
+    text-align: left;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%;
+    /* 修正: 入力フィールドを親要素にフィット */
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    box-sizing: border-box;
+    /* 修正: パディングを幅に含める */
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 100%;
+    /* 修正: ボタンの幅を100%に */
+    max-width: 400px;
+    /* ボタンの最大幅を設定 */
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    /* ボタンを中央に配置 */
+}
+
+.login-form {
+    margin-top: 20px;
+    text-align: center;
+}

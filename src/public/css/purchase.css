@@ -1,0 +1,132 @@
+/* 全体のコンテナ */
+.purchase-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* 左側（商品情報 & 配送情報） */
+.purchase-left {
+    flex: 1;
+}
+
+/* 商品エリア */
+.product-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 商品画像 */
+.product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 商品情報（画像の右側に配置） */
+.product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 商品名 */
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 価格 */
+.product-price {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* 境界線 */
+.separator {
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* 支払い方法 */
+.payment-method {
+    font-size: 16px;
+}
+
+/* 支払い方法のドロップダウン */
+#payment_method {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* 配送先エリア */
+.address-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* 左右に分ける */
+    gap: 20px;
+    /* スペースを開ける */
+}
+
+/* 配送先の文字 */
+.delivery-address {
+    font-size: 16px;
+}
+
+/* 変更するボタン */
+.change-address-button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.change-address-button:hover {
+    background-color: #f0f8ff;
+}
+
+/* 右側（購入確定エリア） */
+.purchase-right-container {
+    width: 40%;
+}
+
+/* 購入情報の枠線 */
+.purchase-right {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* 購入情報の中の境界線 */
+.purchase-right .separator {
+    margin: 10px 0;
+}
+
+/* 購入確定ボタン（枠の外） */
+.confirm-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* 枠線との間隔 */
+}
+
+.confirm-button:hover {
+    background-color: #cc0000;
+}
